@@ -1,0 +1,247 @@
+/*HTML*/
+html{
+	background-color: #A4A4A4;
+}
+
+/*Container*/
+.container{
+	margin: -2% 20% 0% 20%;
+	background-color: #FFF;
+	padding: 2%;
+	border-right: solid 2px #E6E6E6;
+	border-left: solid 2px #E6E6E6;
+	height: 100%;
+	width: 60%;
+	position: relative;
+}
+
+/*Navigatie Balk*/
+ul#nav{
+	list-style: none;
+	font-weight: bold;
+	float: left;
+	width: 100%;
+	position: absolute;
+	margin: 0;
+	background: #FA5858;
+	width: auto;
+	padding: 0;
+}
+
+#nav li{
+	float: left;
+	position: relative;
+	list-style: none;
+	z-index: 999;
+	margin: 0;
+}
+
+
+#nav a{
+	display: block;
+	padding: 5px;
+	color: #000;
+	text-decoration: none;
+	padding: 7px;
+}
+
+
+#nav a:hover{
+	color: #000;
+	background-color: #FA5858;
+	text-decoration: none;
+}
+
+#nav ul{
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+
+#nav ul li{
+	padding-top: 1px;
+	float: none;
+}
+
+#nav li ul li{
+	z-index: 0;
+	width: 150%;
+}
+
+#nav li:hover ul{
+	display: block;
+	padding: 0px;
+}
+
+#nav li:hover a{
+	background: #82FA58;
+	text-decoration: none;
+}
+#nav li:hover ul a{
+	text-decoration: none;
+}
+#nav li:hover ul li a:hover{ 
+	background: #FA5858;
+}
+
+#nav li:hover ul li{
+	display: block;
+}
+
+/*Website Content*/
+div.content{
+	margin: 0% 5% 5% 3%;
+}
+
+ul.content{
+	margin-top: 0%;
+	margin-left: -2%;
+}
+
+ul.content li{
+	list-style: none;
+}
+
+ul.content li a{
+	color: black;
+	text-decoration: none;
+}
+
+ul.content li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+ul.content li a:active{
+	color: black;
+	text-decoration: none;
+}
+
+#metro .metro{
+	margin: 1.5%;
+}
+
+.color{
+	height: 50%;
+	width: 50%;
+	border: 1px solid #000;
+}
+
+.metro img{
+	width: 30px;
+	margin: -1% 0 -1% 0;
+}
+
+#metro .metro img{
+	margin: -1% 0 -1.4% 0;
+}
+
+h2{
+	padding-top: 1%;
+	margin: 0% 0% -0.1%;
+	font-size: 125%;
+}
+
+.img{
+	float: right;
+	margin: 2%;
+	border: 1px solid #ccc;
+	clear: right;
+	padding: 3px;
+	background-color: #f9f9f9;
+	text-align: center;
+	overflow: hidden;
+	width: 202px;
+}
+
+.intext{
+	color: black;
+	text-decoration: none;
+}
+
+.intext:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+.intext:active{
+	color: black;
+	text-decoration: none;
+}
+
+video{
+	width: 50%;
+}
+
+/*Mobile Portrait*/
+@media screen and (max-device-width: 375px) {
+	#nav{
+		z-index: 999 !important;
+	}
+	#nav li{
+		float: none !important;
+		position: static !important;
+	}
+
+	.container{
+		margin: -2% 9% 0% 8% !important;
+		width: 80% !important;
+	}
+
+	div.content{
+		margin: 50% 5% 5% 3% !important;
+	}
+
+	ul.content{
+		margin-left: -15% !important;
+	}
+
+	.img{
+	margin: 8% 1% 5% 1%!important;
+	width: 206px !important;
+	float: inherit;
+	}
+
+	img{
+		width: 100% !important;
+	}
+
+	.metro img{
+	width: 50px !important;
+	margin: 0% 0 -7% 0 !important;
+	}
+
+	#metro .metro img{
+	margin: 7% 0 -8% 0 !important;
+	}
+
+	h1{
+		font-size: 165% !important;
+	}
+
+	h2{
+	font-size: 141% !important;
+	margin: 15% 0 0 -2% !important;
+	}
+
+	h2.east{
+		font-size: 130% !important;
+	}
+
+	#marunouchi img{
+		margin: 0 0 0 0 !important;
+	}
+
+	#metro .metro{
+		font-size: 115%;
+	}
+
+	video{
+		width: 100% !important;
+	}
+
+	audio{
+		width: 112%;
+		margin: 0 0 0 -5%;
+	}
+}
