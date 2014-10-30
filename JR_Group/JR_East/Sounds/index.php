@@ -29,18 +29,42 @@ $site = "http://ressha.hakkajiten.com/";
 			<h1>JR East Sounds</h1>
 			<p>On each station of JR East a sound is played if a train is approaching.<br>
 			Here are some of them.</p>
+			<h2>Holiday</h2>
+			<audio controls>
+  				<source src="../../../Audio/JR Holiday V1.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio><br>
+			This sound is played for arrival the Yamanote line at <a href="<?php echo $site?>JR_Group/JR_East/Stations/#kanda" class="intext">Kanda Station</a>.<br>
 			<h2>Seseragi</h2>
 			<audio controls>
   				<source src="../../../Audio/JR Babble.mp3" type="audio/mpeg">
 				Your browser does not support the audio element.
 			</audio><br>
-			This sound is played for arrival Yamanote line at <a href="#" class="intext">Tamachi Station</a>.<br>
+			This sound is played for arrival the Yamanote line at <a href="#" class="intext">Tamachi Station</a>.<br>
+			<h2>SH-1</h2>
+			<audio controls>
+  				<source src="../../../Audio/JR SH-1.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio><br>
+			This sound is played for arrival the Chuo line Rapid Service at <a href="<?php echo $site?>JR_Group/JR_East/Stations/#tokyo" class="intext">Tokyo Station</a>, <a href="<?php echo $site?>JR_Group/JR_East/Stations/#ochanomizu" class="intext">Ochanomizu Station</a><br>
 			<h2>SH-3</h2>
 			<audio controls>
   				<source src="../../../Audio/JR SH-3.mp3" type="audio/mpeg">
 				Your browser does not support the audio element.
 			</audio><br>
-			This sound is played for arrival Yamanote line at <a href="<<?php echo $site?>JR_Group/JR_East/Stations/#tokyo" class="intext">Tokyo Station</a>.<br>
+			This sound is played for arrival the Yamanote line at <a href="<?php echo $site?>JR_Group/JR_East/Stations/#tokyo" class="intext">Tokyo Station</a>.<br>
+			<h2>Spring</h2>
+			<audio controls>
+  				<source src="../../../Audio/JR Spring.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio><br>
+			This sound is played for arrival the Chuo line Rapid Service at <a href="<?php echo $site?>JR_Group/JR_East/Stations/#yotsuya" class="intext">Yotsuya Station</a>.<br>
+			<h2>Waking of the Trees</h2>
+			<audio controls>
+  				<source src="../../../Audio/JR Waking of the Trees V1.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio><br>
+			This sound is played for arrival the Chuo line Rapid Service at <a href="<?php echo $site?>JR_Group/JR_East/Stations/#shinjuku" class="intext">Shinjuku Station</a>.<br>
 		</div>
 	</div>
 </body>
